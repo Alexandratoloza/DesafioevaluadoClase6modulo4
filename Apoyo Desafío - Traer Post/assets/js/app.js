@@ -15,8 +15,7 @@ async function Traerdatos() {
             postData.appendChild(listItem);
         });
     } catch (error) {
-        console.error('Error fetching posts:', error);
-        alert('Ocurrió un error al obtener los posts. Por favor, inténtalo de nuevo más tarde.');
+        console.error(e);
     }
 }
 
